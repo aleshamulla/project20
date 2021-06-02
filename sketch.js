@@ -44,11 +44,7 @@ function draw() {
 function keyPressed(){
  
   //For moving and changing animation write code here
-  if(keyCode === RIGHT_ARROW){
-    cat.addAnimation("cattease", catImg2);
-    cat.changeAnimation("cattease");
-  }
-
+  
   if(keyCode === LEFT_ARROW){
     mouse.addAnimation("mousetease", mouseAni);
     mouse.changeAnimation("mousetease");
